@@ -70,12 +70,10 @@ Run Main.java:
 
 Start the application and interact with the GUI.
 
-**📸 Screenshots (Optional)
-You can add GUI screenshots here by uploading them and using:
-
-
 **🧑‍💻 Author
+
 Amna Bibi
+
 📧 [amna.sparish@example.com]
 
 📌 Notes
