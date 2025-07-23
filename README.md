@@ -1,9 +1,9 @@
-** 📱 Social Media App — Java GUI + MongoDB
+**📱 Social Media App — Java GUI + MongoDB
 
 This is a my project built using the Advanced Database Systems concept. 
 It is a desktop-based Java GUI application that connects to a MongoDB database (MongoDB Atlas + Compass) and enables full CRUD operations on social media entities such as users, posts, profiles, and sessions.
 
-** 🚀 Features
+**🚀 Features
 🔐 User Login/Signup system (session management using local file)
 
 🏠 Home Feed GUI with post visibility
@@ -24,7 +24,7 @@ db – database connection and utilities
 
 session – current user session tracking
 
-** 🛠️ Tech Stack
+**🛠️ Tech Stack
 Java Swing GUI for desktop user interface
 
 MongoDB Atlas (cloud) + Compass (local view)
@@ -37,7 +37,7 @@ mongodb-driver-core-4.11.1.jar
 
 mongodb-driver-sync-4.11.1.jar
 
-** 📁 Project Structure
+**📁 Project Structure
 
 SocialMediaApp/
 │
@@ -70,11 +70,11 @@ Run Main.java:
 
 Start the application and interact with the GUI.
 
-** 📸 Screenshots (Optional)
+**📸 Screenshots (Optional)
 You can add GUI screenshots here by uploading them and using:
 
 
-🧑‍💻 Author
+**🧑‍💻 Author
 Amna Bibi
 📧 [amna.sparish@example.com]
 
