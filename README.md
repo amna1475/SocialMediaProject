@@ -1,82 +1,68 @@
-**📱 Social Media App — Java GUI + MongoDB
+# Social Media Management System
 
-This is a my project built using the Advanced Database Systems concept. 
-It is a desktop-based Java GUI application that connects to a MongoDB database (MongoDB Atlas + Compass) and enables full CRUD operations on social media entities such as users, posts, profiles, and sessions.
+A desktop-based social media application developed using **Java Swing and MongoDB** as a semester project for the **Advanced Database Systems** course.
 
-**🚀 Features
-🔐 User Login/Signup system (session management using local file)
+The application demonstrates the integration of a Java GUI with a **NoSQL database** to manage social media data. Users can create accounts, log in, view posts, manage profiles, and interact with stored social media data through a simple desktop interface.
 
-🏠 Home Feed GUI with post visibility
+## Features
 
-👤 User Profile with post listings and follower data
+* User Login and Signup
+* Session Management
+* Home Feed with Post Visibility
+* User Profile and Post Listings
+* Follower Data Management
+* CRUD Operations for Social Media Data
+* MongoDB Atlas Database Integration
+* Modular Java Application Structure
 
-✅ MongoDB Atlas backend for storing users, posts, and other social data
+## Technology Stack
 
-🛠️ Modular Java code using packages like:
+* **Java**
+* **Java Swing** – Desktop GUI
+* **MongoDB Atlas** – Cloud Database
+* **MongoDB Compass** – Database Management
+* **MongoDB Java Driver**
 
-auth – authentication
+## Project Structure
 
-home – home feed GUI
-
-profile – user profile GUI
-
-db – database connection and utilities
-
-session – current user session tracking
-
-**🛠️ Tech Stack
-Java Swing GUI for desktop user interface
-
-MongoDB Atlas (cloud) + Compass (local view)
-
-MongoDB Java Driver:
-
-bson-4.11.1.jar
-
-mongodb-driver-core-4.11.1.jar
-
-mongodb-driver-sync-4.11.1.jar
-
-**📁 Project Structure
-
+```text
 SocialMediaApp/
 │
 ├── src/
 │   ├── Main.java
-│   ├── auth/                # Login, Signup screens
-│   ├── db/                  # MongoDB connection helper
-│   ├── home/                # Home feed GUI
-│   ├── profile/             # Profile GUI
-│   └── session/             # Session manager
+│   ├── auth/        # Authentication
+│   ├── db/          # Database connection and utilities
+│   ├── home/        # Home feed
+│   ├── profile/     # User profile
+│   └── session/     # Session management
 │
-├── Lib/                    # Required MongoDB driver JARs
-├── session.txt             # Stores active user session
-└── README.md               # This file
-⚙️ Setup Instructions
-Clone the repository:
+├── Lib/             # MongoDB Driver Libraries
+├── session.txt      # Active user session
+└── README.md
+```
 
-git clone https://github.com/your-username/social-media-app.git
-Open in your Java IDE (e.g., IntelliJ, Eclipse)
+## Purpose
 
-Add MongoDB Driver JARs:
+The main purpose of this project was to apply **Advanced Database Systems concepts** in a practical application. It provides hands-on experience with **NoSQL database design, CRUD operations, database connectivity, authentication, session management, and Java GUI development**.
 
-Include the JARs from Lib/ in your build path.
+## Database
 
-Configure MongoDB:
+The application uses **MongoDB Atlas** to store and manage social media data, including:
 
-Set your MongoDB connection string in MongoUtil.java.
+* Users
+* Profiles
+* Posts
+* Follower information
+* Session-related data
 
-Run Main.java:
+## Getting Started
 
-Start the application and interact with the GUI.
+1. Clone the repository.
+2. Open the project in a Java IDE such as IntelliJ IDEA or Eclipse.
+3. Add the required MongoDB Java Driver libraries.
+4. Configure your MongoDB Atlas connection string.
+5. Run `Main.java` to launch the application.
 
-**🧑‍💻 Author
+## Author
 
-Amna Bibi
-
-📧 [amna.sparish@example.com]
-
-📌 Notes
-This project was built as a semester submission for the Advanced Database Systems course.
-
-Built with a focus on connecting front-end GUI logic to a powerful NoSQL backend.
+**Amna Bibi**
