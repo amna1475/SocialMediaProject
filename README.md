@@ -1,6 +1,6 @@
 # Social Media Management System
 
-A desktop-based social media application developed using **Java Swing and MongoDB** as a semester project for the **Advanced Database Systems** course.
+A desktop-based social media application developed using **Java Swing and MongoDB** for the **Advanced Database Systems** core idea.
 
 The application demonstrates the integration of a Java GUI with a **NoSQL database** to manage social media data. Users can create accounts, log in, view posts, manage profiles, and interact with stored social media data through a simple desktop interface.
 
