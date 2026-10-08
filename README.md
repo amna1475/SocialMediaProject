@@ -1,4 +1,4 @@
-# Social Media Management System
+# VibeConnect - Social Media Management System
 
 A desktop-based social media application developed using **Java Swing and MongoDB** for the **Advanced Database Systems** core idea.
 
